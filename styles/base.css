@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Lato&display=swap');
+
+a:visited { text-decoration: none; color:rgb(0, 0, 0); }
+a:hover { text-decoration: none; color:rgb(255, 255, 255); }
+a:focus { text-decoration: none; color:rgb(255, 255, 255); }
+a:hover, a:active { text-decoration: none; color:rgb(255, 255, 255) }
+a {color: black; text-decoration: none;}
+
+body {
+    padding: 0%;
+    margin: 0 auto;
+    font-family: "Gugi", sans-serif;
+}
+
+header {
+    background-color: rgb(63, 146, 219);
+    height: 15vh;
+}
+
+main {
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+}
+
+.hero {
+    background-color: pink;
+    width: 94vw;
+    height: 65vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8vh;
+}
+
+.hero h1 {
+    margin: 0 auto;
+    padding: 5vh;
+    font-size: 20vh;
+    
+}
+
+.btn {
+    font-size: 10vh;
+}
+
+.line-box {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3vh;
+}
+
+.line-box div {
+    height: 30vh;
+    width: 45vw;
+    background-color: blueviolet;
+}
+
+footer {
+    margin-top: 5vh;
+    height: 30vh;
+    background-color: black;
+}
